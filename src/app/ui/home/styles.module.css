@@ -1,0 +1,14 @@
+.bounce {
+  animation: bounce 2s infinite; /* Adjust duration and easing as needed */
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateX(2px);
+  }
+
+  50% {
+    transform: translateX(0px);
+  }
+}
